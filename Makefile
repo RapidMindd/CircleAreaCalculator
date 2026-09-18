@@ -1,8 +1,8 @@
 CXX = g++
-CXXFLAGS = -std=c++20 -Wall -O2
+CXXFLAGS = -std=c++20 -Wall -Wextra -O2
 SRC = main.cpp
 OUT = a.out
-ARGS ?= 2.0 1000
+ARGS ?= 2.0 1000 10
 
 .PHONY: run bench clean
 
